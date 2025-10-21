@@ -41,7 +41,7 @@ This project addresses three key questions from materials discovery research:
 
 Real materials tested: Ac, AlNi₂, Al₂O₃, Ac₂AgIr, Ac₂CdGa, GaAs, and 2,494+ more
 
-**Key Finding**: Delta learning significantly outperforms baseline on real data. Transfer learning underperformed due to limited dataset size (needs 5k+ samples to be effective).
+**Key Finding**: Delta learning significantly outperforms baseline on real data. Transfer learning underperformed possibly due to limited dataset.
 
 ### Cost-Benefit Analysis
 
@@ -116,7 +116,7 @@ Result: 12.5 days faster, 30,000 CPU hours saved, and 71.4% better accuracy with
 **YES** - Delta learning achieved 71.4% improvement on real materials
 - Low-fidelity PBE (5 CPU hrs) predicts high-fidelity r2SCAN (50 CPU hrs)
 - R² improved from 0.507 (baseline) to 0.974 (delta learning)
-- Best predictions within 0.001 eV/atom (publication quality)
+- Best predictions within 0.001 eV/atom
 - Practical application: Fast XRD scan (5 min) → Predict slow scan (2 hours)
 
 ### Question 2: Multiple fast readings to predict higher resolution?
