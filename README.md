@@ -86,45 +86,6 @@ This project addresses three key questions from materials discovery research:
 
 ---
 
-## 🚀 Quick Start
-
-### Installation
-
-```bash
-# Clone repository
-git clone <your-repo-url>
-cd "UL Material Discovery"
-
-# Create virtual environment
-python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-# Install dependencies
-pip install -r requirements.txt
-```
-
-### Run Analysis
-
-**Option 1: Interactive Jupyter Notebooks**
-```bash
-jupyter notebook
-```
-Then open:
-- `multi_fidelity_materials_prediction.ipynb` - Full demo with explanations
-- `run_notebook.ipynb` - Synthetic data analysis (~30 seconds)
-- `run_notebook_real_data.ipynb` - Real materials validation (~1 minute)
-
-**Option 2: Execute Notebooks Programmatically**
-```bash
-# Synthetic data
-jupyter nbconvert --to notebook --execute run_notebook.ipynb --inplace
-
-# Real materials data
-jupyter nbconvert --to notebook --execute run_notebook_real_data.ipynb --inplace
-```
-
----
-
 ## 📁 Project Structure
 
 ```
@@ -139,11 +100,7 @@ jupyter nbconvert --to notebook --execute run_notebook_real_data.ipynb --inplace
 │   └── materials_project_real_data.csv            # 2,500 real materials
 │
 ├── 📖 Documentation
-│   ├── README.md                                  # This file
-│   ├── HOW_TO_USE.md                              # Detailed usage guide
-│   ├── RESULTS_SUMMARY.md                         # Synthetic data results
-│   ├── REAL_DATA_RESULTS.md                       # Real data analysis
-│   └── SETUP_REAL_DATA.md                         # Materials Project setup
+│   └── README.md                                  # This file
 │
 └── ⚙️ Configuration
     ├── requirements.txt                           # Python dependencies
@@ -261,56 +218,9 @@ To fetch fresh data:
 
 ---
 
-## 🎯 Use Cases
-
-### Research & Development
-- Accelerate materials screening for batteries, catalysts, solar cells
-- Reduce computational costs for high-throughput DFT
-- Enable larger-scale materials exploration
-
-### Quality Control
-- Fast prediction of material properties from quick tests
-- Identify anomalies that need detailed characterization
-- Real-time process monitoring and optimization
-
-### Active Learning
-- Uncertainty-driven experiment selection
-- Iterative improvement with new data
-- Closed-loop autonomous laboratories
-
----
-
-## 👨‍🎓 Author
-
-**Education**: MSc Statistics - Machine Learning, University of Ottawa (2025)
-
-**Skills Demonstrated**:
-- Multi-fidelity machine learning
-- Transfer learning and model fine-tuning
-- Uncertainty quantification
-- Materials science domain knowledge
-- Scientific computing and data analysis
-- Professional documentation and communication
-
----
-
 ## 📄 License
 
 This project is available for educational and research purposes.
-
----
-
-## 🙏 Acknowledgments
-
-- **Materials Project** for providing open materials data
-- **University of Ottawa** for training and education
-- **UL Research Team** for inspiring this project through their presentation
-
----
-
-## 📧 Contact
-
-For questions about this project or collaboration opportunities, please reach out via GitHub issues.
 
 ---
 
